@@ -1,1 +1,29 @@
-GET http://localhost:5292
+GET http://localhost:5292/customers
+
+###
+GET http://localhost:5292/customers/4
+
+###
+POST http://localhost:5292/customers
+Content-Type: application/json
+
+{
+    "firstName": "Clayton",
+    "lastName": "Bonnett",
+    "address": "1111 Airport Rd",
+    "email": "wgml@email.com"
+}
+
+###
+PUT http://localhost:5292/customers/4
+Content-Type: application/json
+
+{
+    "firstName": "Nikko",
+    "lastName": "Green",
+    "address": "3344 Steele Creek Rd",
+    "email": "sgreen@email.com"
+}
+
+###
+DELETE http://localhost:5292/customers/3
