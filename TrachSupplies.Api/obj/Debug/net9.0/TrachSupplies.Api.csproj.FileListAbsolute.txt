@@ -27,3 +27,9 @@ C:\Projects\TrachSupplies.Api\TrachSupplies.Api\obj\Debug\net9.0\refint\TrachSup
 C:\Projects\TrachSupplies.Api\TrachSupplies.Api\obj\Debug\net9.0\TrachSupplies.Api.pdb
 C:\Projects\TrachSupplies.Api\TrachSupplies.Api\obj\Debug\net9.0\TrachSupplies.Api.genruntimeconfig.cache
 C:\Projects\TrachSupplies.Api\TrachSupplies.Api\obj\Debug\net9.0\ref\TrachSupplies.Api.dll
+C:\Projects\TrachSupplies.Api\Trachsupplies.Api\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Projects\TrachSupplies.Api\Trachsupplies.Api\bin\Debug\net9.0\MinimalApis.Extensions.dll
+C:\Projects\TrachSupplies.Api\Trachsupplies.Api\bin\Debug\net9.0\MiniValidation.dll
+C:\Projects\TrachSupplies.Api\Trachsupplies.Api\obj\Debug\net9.0\TrachSupplies.Api.csproj.AssemblyReference.cache
+C:\Projects\TrachSupplies.Api\Trachsupplies.Api\obj\Debug\net9.0\TrachSupplies.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\TrachSupplies.Api\Trachsupplies.Api\obj\Debug\net9.0\TrachSup.2D78C795.Up2Date

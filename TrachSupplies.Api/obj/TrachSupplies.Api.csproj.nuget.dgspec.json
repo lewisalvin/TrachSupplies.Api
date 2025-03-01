@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\TrachSupplies.Api\\TrachSupplies.Api\\TrachSupplies.Api.csproj": {}
+    "C:\\Projects\\TrachSupplies.Api\\Trachsupplies.Api\\TrachSupplies.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\TrachSupplies.Api\\TrachSupplies.Api\\TrachSupplies.Api.csproj": {
+    "C:\\Projects\\TrachSupplies.Api\\Trachsupplies.Api\\TrachSupplies.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\TrachSupplies.Api\\TrachSupplies.Api\\TrachSupplies.Api.csproj",
+        "projectUniqueName": "C:\\Projects\\TrachSupplies.Api\\Trachsupplies.Api\\TrachSupplies.Api.csproj",
         "projectName": "TrachSupplies.Api",
-        "projectPath": "C:\\Projects\\TrachSupplies.Api\\TrachSupplies.Api\\TrachSupplies.Api.csproj",
+        "projectPath": "C:\\Projects\\TrachSupplies.Api\\Trachsupplies.Api\\TrachSupplies.Api.csproj",
         "packagesPath": "C:\\Users\\13145\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\TrachSupplies.Api\\TrachSupplies.Api\\obj\\",
+        "outputPath": "C:\\Projects\\TrachSupplies.Api\\Trachsupplies.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\13145\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MinimalApis.Extensions": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
