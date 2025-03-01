@@ -13,19 +13,22 @@ public static class TrachsEndpoints
             "Braxton",
             "Lewis",
             "1111 Wooden Snow Lane",
-            "chasitysheri@gmail.com"),
+            "chasitysheri@gmail.com",
+            "cuffless"),
         new(
             2,
             "Matteo",
             "Garcia",
             "2222 Capps Rd",
-            "galgathg@email.com"),
+            "galgathg@email.com",
+            "cuffed"),
         new(
             3,
             "Nikko",
             "Green",
             "3333 Steele Creek Rd",
-            "sgreen@email.com")
+            "sgreen@email.com",
+            "cuffless")
     ];
 
     public static RouteGroupBuilder MapTrachsEndPoints(this WebApplication app)
@@ -50,10 +53,11 @@ public static class TrachsEndpoints
         {
             CustomerDto customer = new(
                 customers.Count + 1,
-                newCustomer.firstName,
-                newCustomer.lastName,
-                newCustomer.address,
-                newCustomer.email);
+                newCustomer.FirstName,
+                newCustomer.LastName,
+                newCustomer.Address,
+                newCustomer.Email,
+                newCustomer.TrachType);
 
             customers.Add(customer);
 
@@ -72,10 +76,11 @@ public static class TrachsEndpoints
 
             customers[index] = new CustomerDto(
                 id,
-                updatedCustomer.firstName,
-                updatedCustomer.lastName,
-                updatedCustomer.address,
-                updatedCustomer.email
+                updatedCustomer.FirstName,
+                updatedCustomer.LastName,
+                updatedCustomer.Address,
+                updatedCustomer.Email,
+                updatedCustomer.TrachType
             );
 
             return Results.NoContent();

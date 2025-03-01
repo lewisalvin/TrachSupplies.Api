@@ -3,9 +3,10 @@ namespace TrachSupplies.Api.Dtos;
 public record class CustomerDto
 (
     int Id,
-    string firstName,
-    string lastName,
-    string address,
-    string email
+    string FirstName,
+    string LastName,
+    string Address,
+    string Email,
+    string TrachType
 
 );

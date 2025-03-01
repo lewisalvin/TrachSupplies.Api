@@ -8,21 +8,23 @@ POST http://localhost:5292/customers
 Content-Type: application/json
 
 {
-    "firstName": "Clayton",
-    "lastName": "Bonnett",
-    "address": "1111 Airport Rd",
-    "email": "wgml@email.com"
+    "FirstName": "Clayton",
+    "LastName": "Bonnett",
+    "Address": "1111 Airport Rd",
+    "Email": "wgml@email.com",
+    "TrachType": "cuffless"
 }
 
 ###
-PUT http://localhost:5292/customers/4
+PUT http://localhost:5292/customers/3
 Content-Type: application/json
 
 {
-    "firstName": "Nikko",
-    "lastName": "Green",
-    "address": "3344 Steele Creek Rd",
-    "email": "sgreen@email.com"
+    "FirstName": "Nikko",
+    "LastName": "Green",
+    "Address": "3344 Steele Creek Rd",
+    "Email": "sgreen@email.com",
+    "TrachType": "cuffed"
 }
 
 ###
