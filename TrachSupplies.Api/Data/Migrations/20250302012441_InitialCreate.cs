@@ -2,6 +2,8 @@
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace TrachSupplies.Api.Data.Migrations
 {
     /// <inheritdoc />
@@ -44,6 +46,15 @@ namespace TrachSupplies.Api.Data.Migrations
                         principalTable: "TrachTypes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "TrachTypes",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Cuffed" },
+                    { 2, "Cuffless" }
                 });
 
             migrationBuilder.CreateIndex(

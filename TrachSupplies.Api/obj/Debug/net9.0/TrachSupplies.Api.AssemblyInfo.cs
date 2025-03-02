@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrachSupplies.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb4fa78522118fe21767848efeb944c84dca5c0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bbb6a27cefcc30f7c56687bd503f16259dd5ab3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrachSupplies.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrachSupplies.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

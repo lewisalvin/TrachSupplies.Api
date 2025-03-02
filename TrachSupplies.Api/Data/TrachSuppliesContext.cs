@@ -10,4 +10,12 @@ public class TrachSuppliesContext(DbContextOptions<TrachSuppliesContext> options
     public DbSet<Customer> Customers => Set<Customer>();
 
     public DbSet<TrachType> TrachTypes => Set<TrachType>();
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<TrachType>().HasData(
+            new {Id = 1, Name = "Cuffed"},
+            new {Id = 2, Name = "Cuffless"}
+        );
+    }
 }

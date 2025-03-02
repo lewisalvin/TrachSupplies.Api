@@ -10,7 +10,7 @@ using TrachSupplies.Api.Data;
 namespace TrachSupplies.Api.Data.Migrations
 {
     [DbContext(typeof(TrachSuppliesContext))]
-    [Migration("20250301230325_InitialCreate")]
+    [Migration("20250302012441_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -64,6 +64,18 @@ namespace TrachSupplies.Api.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TrachTypes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Cuffed"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Cuffless"
+                        });
                 });
 
             modelBuilder.Entity("TrachSupplies.Api.Entities.Customer", b =>

@@ -11,4 +11,6 @@ var app = builder.Build();
 
 app.MapTrachsEndPoints();
 
+app.MigrateDb();
+
 app.Run();
